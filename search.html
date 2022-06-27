@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/search.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div class="top">
+                <div id="logo-methyl-div">
+                    <h1><a href="/"><img src="./img/logo.png" alt="logo"></a></h1>
+                </div>
+                <div id="search-ethyl-div" class="header-ethyl-child">
+                    <div id="search-input-methyl-div">
+                        <input type="search">
+                    </div>
+                    <div id="search-options--div">
+                        <button id="search-submit-btn">
+                            <img src="./img/search.svg" alt="search">
+                        </button>
+                    </div>
+                </div>
+                <div id="user-ethyl-div" class="header-ethyl-child">
+                    <!-- <div id="user-image-methyl-div"></div> -->
+                    <div id="user-tag-methyl-div" class="header-child-tag">
+                        <a href="./login.html">Sign In</a>
+                    </div>
+                </div>
+                <div id="cart-ethyl-div" class="header-ethyl-child">
+                    <div id="cart-icon-methyl-div">
+                        <img src="./img/cart.png" alt="cart">
+                    </div>
+                    <div id="cart-tag-methyl-div" class="header-child-tag">
+                        <a href="#">Cart</a>
+                    </div>
+                </div>
+                <div id="lang-ethyl-div" class="header-ethyl-child">
+                    <div id="lang-icon-methyl-div">
+                        <img src="./img/flag of the uk.svg" alt="language">
+                    </div>
+                    <div id="lang-tag-methyl-div" class="header-child-tag">
+                        <a href="#">English</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div id="nav-methyl-div">
+                    <ul>
+                        <li id="product-all-ethyl-li">
+                            <a href="#">All</a>
+                            <ul class="subnav depth-1">
+                                <li>
+                                    <a href="#">Books</a>
+                                    <ul class="subnav depth-2">
+                                        <li><a href="#">Best Seller</a></li>
+                                        <li>
+                                            <a href="#">Korean Books</a>
+                                            <ul class="subnav depth-3">
+                                                <li><a href="#">Elementary Books</a></li>
+                                                <li><a href="./search.html">Secondary Books</a></li>
+                                                <li><a href="#">Higher Books</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Foriegn Books</a></li>
+                                        <li><a href="#">eBooks</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Stationery</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="content-nav-li">
+                            <a href="#">Customer Service</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="container">
+            <div id="list-label-nonyl-div" class="left">
+                <h2>Secondary Books</h2>
+                <div id="list-filter--div">
+                    <h3>Filter</h3>
+                    <div class="selector-content">
+                        <div>
+                            <input id="sec-4" type="checkbox">
+                            <label for="sec-4">Freshman</label>
+                        </div>
+                        <div>
+                            <input id="sec-5" type="checkbox">
+                            <label for="sec-5">Sophomore</label>
+                        </div>
+                        <div>
+                            <input id="sec-6" type="checkbox">
+                            <label for="sec-6">Junior</label>
+                        </div>
+                    </div>
+                    <div class="selector-divider"></div>
+                    <div class="selector-content">
+                        <div>
+                            <input id="kor" type="checkbox">
+                            <label for="kor">Korean</label>
+                        </div>
+                        <div>
+                            <input id="eng" type="checkbox">
+                            <label for="eng">English</label>
+                        </div>
+                        <div>
+                            <input id="mat" type="checkbox">
+                            <label for="mat">Math</label>
+                        </div>
+                        <div>
+                            <input id="soc" type="checkbox">
+                            <label for="soc">Social</label>
+                        </div>
+                        <div>
+                            <input id="sci" type="checkbox">
+                            <label for="sci">Science</label>
+                        </div>
+                        <div>
+                            <input id="his" type="checkbox">
+                            <label for="his">History</label>
+                        </div>
+                        <div>
+                            <input id="job" type="checkbox">
+                            <label for="job">Job</label>
+                        </div>
+                    </div>
+                    <div class="selector-divider"></div>
+                    <div class="selector-content">
+                        <div>
+                            <input id="sponser-1" type="checkbox">
+                            <label for="sponser-1">A BKST</label>
+                        </div>
+                        <div>
+                            <input id="sponser-2" type="checkbox">
+                            <label for="sponser-2">B BKST</label>
+                        </div>
+                    </div>
+                    <div class="selector-divider"></div>
+                    <div class="selector-content">
+                        <h4>Find Keywords</h4>
+                        <input type="search">
+                    </div>
+                    <div class="selector-divider"></div>
+                </div>
+                <div id="catagory-list-methyl-div">
+                    <ul>
+                        <li>
+                            <a href="#">Books</a>
+                            <ul>
+                                <li><a href="#">Best Seller</a></li>
+                                <li>
+                                    <a href="#">Korean Books</a>
+                                    <ul>
+                                        <li><a href="#">Elementary Books</a></li>
+                                        <li><a href="#">Sophomore Books</a></li>
+                                        <li><a href="#">Higher Books</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Foreign Books</a></li>
+                                <li><a href="#">eBooks</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Stationery</a></li>
+                        <li>
+                            <a href="#">Customer Service</a>
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Customer Center</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="list-content--div" class="right">
+                <div id="content-filter-methyl-div">
+                    <ul>
+                        <li class="selected"><a href="#">Recommended</a></li>
+                        <li><a href="#">Lower Price</a></li>
+                        <li><a href="#">Higher Price</a></li>
+                        <li><a href="#">Sales</a></li>
+                        <li><a href="#">later</a></li>
+                        <li><a href="#">Satisfaction</a></li>
+                    </ul>
+                </div>
+                <div id="content-cards--div">
+
+                </div>
+                <script>
+                    const contentsList = document.getElementById("content-cards--div");
+                    for (let i = 0; i < 24; i++){
+                        let card = document.createElement("div");
+                        card.classList.add("product-card");
+                        card.addEventListener("click", () => {
+                            document.location.href = "./product.html";
+                        });
+
+                        let imgDiv = document.createElement("div");
+                        imgDiv.classList.add("product-img-div");
+
+                        let imgImg = document.createElement("img");
+                        imgImg.src = "./img/represent-logo.png";
+                        imgImg.alt = "image title";
+                        imgDiv.appendChild(imgImg);
+                        card.appendChild(imgDiv);
+
+                        let scripDiv = document.createElement("div");
+                        scripDiv.classList.add("product-scrip-div");
+
+                        let titleP = document.createElement("p");
+                        titleP.classList.add("title");
+                        titleP.innerText = "4 Pack - Solid Color Stretchable Book Covers";
+                        scripDiv.appendChild(titleP);
+
+                        let priceP = document.createElement("p");
+                        priceP.classList.add("price");
+
+                        let b = document.createElement("b");
+                        b.innerText = "31,500₩";
+                        priceP.appendChild(b);
+                        scripDiv.appendChild(priceP);
+
+                        let msgP = document.createElement("p");
+                        msgP.classList.add("msg");
+                        msgP.innerText = "Ensure deliver someday";
+                        scripDiv.appendChild(msgP);
+
+                        let ratingDiv = document.createElement("div");
+                        ratingDiv.classList.add("rating");
+
+                        let clusterDiv = document.createElement("div");
+                        clusterDiv.classList.add("star-cluster");
+
+                        let starImg = document.createElement("img");
+                        starImg.src = "./img/star.png";
+                        starImg.alt = "star";
+                        
+                        for (let j = 0; j < 5; j++){
+                            clusterDiv.appendChild(starImg.cloneNode(true));
+                        }
+                        ratingDiv.appendChild(clusterDiv);
+
+                        let personSpan = document.createElement("span");
+                        personSpan.classList.add("person");
+                        personSpan.innerText = "(123)";
+                        ratingDiv.appendChild(personSpan);
+                        scripDiv.appendChild(ratingDiv);
+
+                        let pointDiv = document.createElement("div");
+                        pointDiv.classList.add("point");
+
+                        let coinDiv = document.createElement("div");
+                        coinDiv.classList.add("coin-point");
+
+                        let pSpan = document.createElement("span");
+                        pSpan.innerText = "P";
+                        coinDiv.appendChild(pSpan);
+                        pointDiv.appendChild(coinDiv);
+
+                        let msgSpan = document.createElement("span");
+                        msgSpan.innerText = "Ensure something to maximum";
+                        pointDiv.appendChild(msgSpan);
+                        scripDiv.appendChild(pointDiv);
+                        card.appendChild(scripDiv);
+                        contentsList.appendChild(card);
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

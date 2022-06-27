@@ -1,0 +1,41 @@
+#container {
+    margin: 0 auto;
+    max-width: 1500px;
+}
+#ad-methyl-div {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 300px;
+}
+
+#content-flex-ethyl-div {
+    margin: 0 20px;
+    display: inline-flex;
+    position: relative;
+    top: -50px;
+}
+
+#catagoric-list--div > .catagoric-card {
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 340px;
+    height: 400px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+#sponser-list--div {
+    margin-bottom: auto;
+    display: grid;
+    grid-gap: 20px;
+}
+#sponser-list--div > .sponser-card {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 240px;
+    height: 100px;
+    background-color: white;
+}

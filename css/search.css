@@ -1,0 +1,113 @@
+#container {
+    margin: 0 auto 50px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    max-width: 1705px;
+}
+
+#list-label-nonyl-div {
+    width: 300px;
+    border-right: 1px solid black;
+}
+#list-filter--div {
+    padding: 0 10px;
+}
+#list-filter--div > .selector-content > div {
+    display: inline-block;
+}
+
+#list-filter--div > .selector-divider {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+#catagory-list-methyl-div ul {
+    margin: 15px 0;
+}
+#catagory-list-methyl-div li {
+    margin: 5px 0;
+    list-style: none;
+}
+
+#content-filter-methyl-div > ul > li {
+    float: left;
+    list-style: none;
+}
+#content-filter-methyl-div > ul > li.selected {
+    list-style: inside url("../img/filter-checked.svg");
+}
+
+#content-cards--div {
+    margin: 100px 0 30px 20px;
+}
+#content-cards--div > .product-card {
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    width: 280px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+#content-cards--div .product-img-div {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 240px;
+}
+#content-cards--div .product-img-div img {width: 100px;}
+
+#content-cards--div .product-scrip-div {
+    margin-bottom: 6px;
+    padding: 5px;
+}
+#content-cards--div .product-scrip-div p.price {
+    padding: 5px 0;
+    font-size: 28px;
+    color: #AE0000;
+}
+#content-cards--div .product-scrip-div p.msg {
+    font-size: 18px;
+    color: #00891A;
+}
+#content-cards--div .product-scrip-div > .rating {
+    display: flex;
+    align-items: center;
+}
+#content-cards--div .product-scrip-div > .rating span {
+    font-size: 12px;
+}
+#content-cards--div .product-scrip-div > .rating .star-cluster {
+    margin-right: 2px;
+}
+#content-cards--div .product-scrip-div > .rating .star-cluster img {
+    width: 20px;
+}
+
+#content-cards--div .product-scrip-div > .point {
+    padding: 2px 6px 2px 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: table;
+}
+#content-cards--div .product-scrip-div > .point .coin-point {
+    margin-right: 5px;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    text-align: center;
+    background-color: #FFC90B;
+    vertical-align: middle;
+    color: white;
+}
+#content-cards--div .product-scrip-div > .point .coin-point > span {
+    position: relative;
+    top: -1px;
+}
+#content-cards--div .product-scrip-div > .point span {
+    font-size: 14px;
+}
