@@ -85,7 +85,7 @@
         </div>
         <div id="container">
             <div id="ad-methyl-div">
-                <span>Advertise Label</span>
+                <img src="./img/ad_label-img.jpg">
             </div>
             <div id="content-flex-ethyl-div">
                 <div id="catagoric-list--div">
@@ -96,11 +96,19 @@
                 </div>
             </div>
             <script>
+                const classifiList = ["Novel", "SAT", "Story", "Stationary", "eBooks"];
                 const productList = document.getElementById("catagoric-list--div");
                 for (let i = 0; i < 5; i++){
                     let div = document.createElement("div");
                     div.classList.add("catagoric-card");
-                    div.innerText = `Classification #${i+1}`;
+                    
+                    let b = document.createElement("b");
+                    b.innerText = classifiList[i];
+                    div.appendChild(b);
+                    
+                    let img = document.createElement("img");
+                    img.src = `./img/classifi_${i+1}-img.jpg`;
+                    div.appendChild(img);
                     productList.appendChild(div);
                 }
                 

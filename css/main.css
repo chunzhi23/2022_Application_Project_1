@@ -3,9 +3,12 @@
     max-width: 1500px;
 }
 #ad-methyl-div {
-    border: 1px solid black;
-    border-radius: 5px;
     height: 300px;
+    overflow: hidden;
+}
+#ad-methyl-div > img {
+    width: 100%;
+    transform: translateY(-50%);
 }
 
 #content-flex-ethyl-div {
@@ -18,13 +21,26 @@
 #catagoric-list--div > .catagoric-card {
     margin-right: 40px;
     margin-bottom: 40px;
+    padding: 20px;
     border: 1px solid black;
     border-radius: 5px;
     width: 340px;
     height: 400px;
+    position: relative;
     display: inline-block;
+    overflow: hidden;
     box-sizing: border-box;
     background-color: white;
+}
+#catagoric-list--div > .catagoric-card > b {
+    margin-bottom: 10px;
+    display: block;
+    font-size: 21px;
+    font-weight: bold;
+}
+#catagoric-list--div > .catagoric-card > img {
+    border-radius: 5px;
+    width: 100%;
 }
 
 #sponser-list--div {
